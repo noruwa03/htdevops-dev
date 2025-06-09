@@ -74,7 +74,7 @@ const Team = () => {
           {teamInfo.map((data: any, index: number) => (
             <Fragment key={index}>
               <div className="rounded-lg shadow-lg lg:w-1/5 sm:w-2/5 w-5/5 bg-[#0a424f] overflow-hidden">
-                <div className="h-48 w-full bg-gray-300 relative ">
+                <div className="sm:h-48 w-full bg-gray-300 relative ">
                   <img
                     src={data.avatar}
                     alt={data.name}
