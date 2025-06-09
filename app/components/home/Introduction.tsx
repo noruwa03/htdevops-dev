@@ -113,8 +113,8 @@ const Introduction = () => {
         />
       </div>
 
-      <div className="lg:mt-20 mt-5 mx-auto">
-        <div className="grid place-content-center">
+      <div className="lg:mt-20 mt-24 mx-auto">
+        <div className="grid place-content-center sm:mb-0 mb-2">
           <a
             href={bashCourseLink}
             target="_blank"
